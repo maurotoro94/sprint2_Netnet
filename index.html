@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>NETNET</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="contenedor">
+            <h1 id="titulo">NETNET</h1>
+
+            <div class="topnav">
+                <nav id="nav-bar">
+                    <a class="nav-link active" href="#">Inicio</a>
+                    <a class="nav-link" href="#peliculasR">Peliculas recomendadas</a>
+                    <a class="nav-linke" href="#suscribete">Suscribete</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="imagenprincipal">
+            <div class="contenedor">
+                <h2 id="titulodepelicula">Son como niños</h2>
+                <p id="descripcion">Kurt McKenzie es un amo de casa casado con Deanne , el
+                    principal sostén de la familia, y tiene dos hijos. ... Cuando reciben la noticia de que su
+                    entrenador ha fallecido, los cinco viajan a Nueva Inglaterra acompañados de sus familias para
+                    asistir a su funeral.</p>
+                <button role="button" class="boton"><img src="./images/icons/play-button.png">Reproducir</button>
+                <button role="button" class="boton"><img src="./images/icons/information.png">Mas informacion</button>
+
+            </div>
+        </div>
+
+        <div class="contenedorSlider contenedor">
+            <div class="titulo-contenedor">
+                <h3 id="peliculasR">Peliculas recomendadas</h3>
+                <div class="indicador">
+
+                </div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izq" class="flecha-izq"><img src="./images/icons/left.png"></button>
+
+
+                <div class="contenedor-carousel">
+
+                    <div class="carousel">
+
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/UxER50XHW-I"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/FdBvQi-EsmQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/7AONoC1Lb_0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/MlQvqErjI1Q"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/yMEDiKD7cyE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/-Z1mGA3YS5Q"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/yCHxICJ4lF8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/tJrugIIjStw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/9jL-CDgE-fY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/D4X0R5VXhEw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/2ty_hLkSqRk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <iframe class="pelicula" src="https://www.youtube.com/embed/0ZFlxUIFyNU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+                <button role="button" id="flecha-der" class="flecha-der"><img src="./images/icons/right.png"></button>
+
+            </div>
+        </div>
+
+        <div class="formulario" id="suscribete">
+            <h2>Suscribete!</h2><br>
+            <form id="survey-form">
+                <label id="name-label" for="name">Name:</label>
+                <input type="text" id="name" name="name" value="" required><br><br>
+                <label id="email-label" for="email">Email :</label>
+                <input type="email" id="email" name="email" value="" required><br><br>
+
+                <label for="dropdown">Seleccione su genero:</label><br>
+                <select name="genero" id="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <label for="comentary">Comentarios:</label><br><br>
+                <textarea id="comentary" name="comentary" rows="4" cols="50"></textarea><br><br>
+
+                <div class="align-center">
+                    <input id="submit" type="submit" class="button1" onclick="almacenarDatos()">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="./scripts/scripts.js"></script>
+
+</body>
